@@ -6,9 +6,9 @@ import java.util.Date;
 
 import org.junit.Test;
 
-import txp.learn.hibernate.jpa.model.Order;
+import txp.learn.hibernate.jpa.oracleexample.dao.OrderDao;
+import txp.learn.hibernate.jpa.oracleexample.model.Order;
 import txp.learn.hibernate.jpa.service.EntityManagerFactoryProvider;
-import txp.learn.hibernate.jpa.service.OrderDao;
 
 public class OrderDaoTest {
 	
