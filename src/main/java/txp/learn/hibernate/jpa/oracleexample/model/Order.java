@@ -1,4 +1,4 @@
-package txp.learn.hibernate.jpa.model;
+package txp.learn.hibernate.jpa.oracleexample.model;
 
 import java.util.Date;
 
@@ -21,8 +21,8 @@ public class Order {
 	private Character status;
 	
 	@Id
-	@GeneratedValue(generator="increment")
 	@GenericGenerator(name="increment", strategy = "increment")
+	@GeneratedValue(generator="increment")
 	public Long getId() {
 		return id;
 	}

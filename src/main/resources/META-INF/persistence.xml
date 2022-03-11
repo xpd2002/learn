@@ -5,7 +5,7 @@
 	version="2.0">
 	<persistence-unit name="org.hibernate.tutorial.jpa">
 		<properties>
-			<property name="hibernate.show_sql" value="true" />
+			<property name="hibernate.show_sql" value="false" />
 			<property name="hibernate.globally_quoted_identifiers" value="true" />
 		</properties>
 	</persistence-unit>
